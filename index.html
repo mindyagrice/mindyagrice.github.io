@@ -1,111 +1,116 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>My Portal Page</title>
- 
-<!--Remy Sharp Shim --> 
-<!--[if lte IE 9]> 
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" 
-type="text/javascript" >
-</script> 
-<![endif]-->
-</head>
- 
-    <body>
-        
-		<h1>This is my Headline 1</h1>
-        
-		<h2>This is my Headline 2</h2>
-            
-	    	            <img src="images\logo.jpg" alt="Mouse Books Logo">
-				<img src="images\profile-pic.JPG" alt="This is Mindy's Profile Picture; " >
-			
+<!DOCTYPE html>
+<html>
+	<head>
 
-     
-            <p>
-            "<b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<strong>Ut enim ad minim</strong> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <em>Duis aute irure dolor in reprehenderit</em> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <i>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i>"
-            </p>
-        
-		<h3>My Shopping List, an unordered, nested list</h3>
-        
-			<ul>
-            <li>milk</li> 
-            <li>eggs</li>
-            <li>cheese</li>
-            <li>wine
-                <ul>
-                <li>merlot</li>
-                <li>cabernet
-                    <ul>
-                    <li>Chateau St Michelle</li>
-                    <li>McCrea Cellars</li>
-                    <li>Chateau St Michelle</li>
-                    </ul>
-                    </li>
-                <li>shiraz</li>
-                <li>malbec</li>
-                </ul>
-                </li>
-            </ul>
-        
-        <h3>My Shopping List, an ordered list</h3>
- 
-            <ol>
-                <li>milk</li> 
-                <li>eggs</li>
-                <li>cheese</li>
-                <li>wine</li>
-            </ol>
- 
-        <h3>My Favorite Movies</h3>
- 
-            <ol>
-                <li><a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" target="_Blank"> Lord of the Rings</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Underworld_(film_series)" target="_Blank"> Underworld</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Starship_Troopers_(film)"target="_Blank"> Starship Troopers</a></li>
-            </ol>
+
+		<title>MouseBooks.info</title>
+
+	<style>
+	
+	* {
+		box-sizing: border-box;	}
+	
+	body {
+		margin: 15px;	
+		}
+	
+	h2{
+		padding:0 0 15px 0;	}
 		
-		<h3>My Favorite Authors</h3>
-        
-			<ul>		
-			<li>Patricia Briggs   
-				<ul>	
-				<li>Series: Mercy Thompson 
-					<ul>	
-					<li>Characters: Mercy & Adam</li> 
-					</ul>
-				</li>
-				</ul>
-				<ul>
-				<li>Series: Alpha & Omega
-					<ul>
-					<li>Characters: Charles & Anna</li><!-- -->
-					</ul>
-				</li>
-				</ul>	
-			<li>Jonathan Maberry   
-				<ul>	
-				<li>Series: Joe Ledger 
-					<ul>	
-					<li>Character: Joe Ledger</li> 
-					</ul>
-				</li>
-				</ul>
-				<ul>
-				<li>Series: Benny Imura
-					<ul>
-					<li>Characters: Benny Imura</li><!-- -->
-					</ul>
-				</li>
-				</ul>	
-			</ul>
+	hr {
+		margin-bottom: 0;}
+	
+							
+	.header{
+	
+		margin-left: 370px;
 		
+				
+			}
+	
+	img#logo {
+	height: 250px;}
+	img#books {
+	height: 250px;}
+	img#mousebooks {
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 30px;
+	}
+	
+		img#mouse-bookend {
+		margin: 15px 30px 10px 25px;
+		padding: 15px 1500px 15px 15px;
+		border: 7px solid green;
+		size: 25%;
+		float:left;}
+	
+	.column {
+		float: left;
+		width: 30%;
+		padding: 20px;
+		margin: 25px 0 0 25px;
+		wrap: text;
+		border-left:5px solid green;}
 		
+	.row:after {
+		content:"";
+		display: table;
+		clear: both;}
 		
+		-->
+	/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+		@media (max-width:600px) {
+		.column {
+        width: 100%;
+    }
+	}
+	
+	
+	</style>
 		
+	</head>
+
+	<body>
+	
 		
+		<div class="header">	
+			<img id="logo" src="images\logo.jpg" alt="Mouse Books Logo">
+			<img id="mousebooks" src="images\mousebooks.jpg" alt="Mouse Books Mousebooks">
+			<img id="books" src="images\books.jpg" alt="Mouse Books Books">
+		</div>
 		
- 
-    </body>
+		<hr>
+			<img id="mouse-bookend" src="images\mouse.jpg" alt="Mouse Bookend">
+		
+	<div class="row">	
+		<div class="column">
+			<h2>What is MouseBooks.info?</h2>
+			
+			<p>MouseBooks.info is a private lending library. You can find books that are currently in the library, have travelled through the library or are on loan to the library.</p>
+			<br>
+		</div>
+		
+		<div class="column">
+			<h2>How did MouseBooks.info come to be?</h2>
+			
+			<p>When you own close to 2000 books and then take a SQL Server class, you have the perfect recipe for a book database. Lend books to family and friends, borrow books from family and friends, then throw in HTML and CSS classes and you get MouseBooks.info!</p>   
+		</div>
+		
+		<div class="column">		
+
+			
+			<h2>Why Mouse Books?</h2>
+			
+			<p>Dad has always called me Mouse. After I collected several hundred books, I decided it was time to name my library. Mouse Books was the first thing that came to mind.</p>
+			<br>
+
+		</div>	
+
+	</div>
+		
+
+
+
+	</body>
 </html>
