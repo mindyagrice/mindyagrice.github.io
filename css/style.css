@@ -18,7 +18,7 @@ header {
 nav {
 	height:50px;
 	line-height:50px;
-	background:#5D2F32;
+	background:#676D8D;
 	margin-bottom:25px;
 }
 nav ul {
@@ -39,7 +39,7 @@ nav a {
 	display:block;	
 }
 nav a:hover {
-	background:#8d553e ;
+	background:#ABA08E;
 	color: black;
 }
 
@@ -73,7 +73,7 @@ aside#how {
 footer {
 	height:50px;
 	line-height:50px;
-	background:#5D2F32;
+	background:#676D8D;
 	margin-top: 25px;
 	clear:both;
 }
@@ -94,7 +94,7 @@ footer a {
 	display:block;
 }
 footer a:hover {
-	background:#D8C5B6 ;
+	background:#ABA08E ;
 	color: black;
 }
 
