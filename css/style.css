@@ -5,7 +5,7 @@
 body {
 	font-size:100%;
 	background-color:#8BADD2;
-	background-image:url(images/authorsblue.jpg);
+	background-image:url(../images/authorsblue.jpg);
 }
 #wrapper {
 	width:940px;
@@ -46,7 +46,7 @@ nav a:hover {
 main {
 	height: 700px;
 	width: 560px;
-	background:;
+	background:#8BADD2;
 	float:left;
 }
 aside#why {
@@ -107,7 +107,7 @@ img#mousebooks {
 	margin:20px 0 20px 15px;
 }
 
-img#books {
+img#booksblue {
 	float:right;
 	display:50%;
 }
