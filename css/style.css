@@ -1,0 +1,124 @@
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	font-size:100%;
+	background-color:#808c80;
+	background-image:url(desktop/html-projects/mousebooks-practice/images/authors.png);
+}
+#wrapper {
+	width:940px;
+	margin:20px auto;
+}
+header {
+	background: #E5E5E5;
+	overflow:hidden;
+}
+nav {
+	height:50px;
+	line-height:50px;
+	background:#5D2F32;
+	margin-bottom:25px;
+}
+nav ul {
+	width:940px;
+	margin:0 auto;
+	 
+}
+nav li{
+	list-style-type:none;
+	float:left;
+	width:33%;
+	text-align:center;
+	color:#D8C5B6;
+}
+nav a {
+	color:#D8C5B6;
+	text-decoration:none;
+	display:block;	
+}
+nav a:hover {
+	background:#8d553e ;
+	color: black;
+}
+
+main {
+	height: 700px;
+	width: 560px;
+	background:;
+	float:left;
+}
+aside#why {
+
+	width:340px;
+	background:#808c80;
+	float:right;
+	margin-bottom:25px;
+}
+
+aside#what {
+
+	width:340px;
+	background:#808c80;
+	float:right;
+}
+aside#how {
+
+	width:340px;
+	background:#808c80;
+	float:right;
+
+}
+footer {
+	height:50px;
+	line-height:50px;
+	background:#5D2F32;
+	margin-top: 25px;
+	clear:both;
+}
+footer ul {
+	width:940px;
+	margin:0 auto;
+}
+footer li{
+	float:left;
+	list-style-type:none;
+	width:33%;
+	text-align: center;
+	color:#D8C5B6;
+}
+footer a {
+	color:#D8C5B6;
+	text-decoration:none;
+	display:block;
+}
+footer a:hover {
+	background:#D8C5B6 ;
+	color: black;
+}
+
+img {
+	max-width:100%
+
+}
+
+img#mousebooks {
+	margin:20px 0 20px 15px;
+}
+
+img#books {
+	float:right;
+	display:50%;
+}
+h1{
+	margin-bottom:25px;
+}
+h2 {
+	margin:15px 10px 15px 25px;
+	}
+
+
+p {
+	margin:10px 10px 10px 25px;
+}
