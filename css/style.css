@@ -4,7 +4,7 @@
 }
 body {
 	font-size:100%;
-	background-color:#8D8B8C;
+	background-color:#8BADD2;
 	background-image:url(images/authorsblue.jpg);
 }
 #wrapper {
@@ -52,7 +52,7 @@ main {
 aside#why {
 
 	width:340px;
-	background:#808c80;
+	background:#8BADD2;
 	float:right;
 	margin-bottom:25px;
 }
@@ -60,13 +60,13 @@ aside#why {
 aside#what {
 
 	width:340px;
-	background:#808c80;
+	background:#8BADD2;
 	float:right;
 }
 aside#how {
 
 	width:340px;
-	background:#808c80;
+	background:#8BADD2;
 	float:right;
 
 }
