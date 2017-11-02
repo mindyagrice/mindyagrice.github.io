@@ -50,6 +50,21 @@ main {
 	background:#8BADD2;
 	float:left;
 }
+main#authors {
+	margin-top:25px;
+	width: 850px;
+	background:#8BADD2;
+	float:left;
+}
+img#authors {
+	margin-top:0px;
+
+
+		float:right;
+}
+ul#authors {
+	margin-left:75px;
+}
 aside#why {
 
 	width:340px;
