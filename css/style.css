@@ -113,10 +113,11 @@ footer a:hover {
 	background:#ABA08E ;
 	color: black;
 }
-
+img#logo {
+	float:right;
+}
 img {
 	max-width:100%
-
 }
 
 img#mousebooks {
