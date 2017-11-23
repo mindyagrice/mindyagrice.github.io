@@ -58,9 +58,7 @@ main#authors {
 }
 img#authors {
 	margin-top:0px;
-
-
-		float:right;
+	float:right;
 }
 ul#authors {
 	margin-left:75px;
@@ -115,13 +113,14 @@ footer a:hover {
 }
 img#logo {
 	float:right;
+	margin:0 15px 0 0;
 }
 img {
 	max-width:100%
 }
 
 img#mousebooks {
-	margin:20px 0 20px 15px;
+	margin:30px 0 0 15px;
 }
 
 img#booksblue {
